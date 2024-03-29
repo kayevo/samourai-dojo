@@ -1,4 +1,4 @@
-# Contributing to Samourai Wallet
+# Contributing to Samourai Dojo
 
 ## Technologies and scope
 
