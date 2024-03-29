@@ -35,7 +35,7 @@
     "socks-proxy-agent": "4.0.1",
     "validator": "10.8.0",
     "websocket": "1.0.28",
-    "zeromq": "4.2.0"
+    "zeromq": "^5.3.1"
   },
   "devDependencies": {
     "mocha": "^7.1.1"
