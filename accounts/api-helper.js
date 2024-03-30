@@ -79,7 +79,7 @@ class ApiHelper {
   /**
    * Check entities passed as url params
    * @param {object} params - request query or body object
-   * @returns {boolean} return true if conditions are met, false otherwise
+   * @returns {boolean} return true if there is at least one not empty entity parameter, false otherwise
    */
   checkEntitiesParams(params) {
     return params.active
