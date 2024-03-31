@@ -145,8 +145,11 @@ class ApiHelper {
   /**
    * Validate a request argument
    * @param {string} arg - request argument
+   * @returns {boolean} return true if all params have just alphanumeric characteres
    */
   subValidateEntitiesParams(arg) {
+        if (typeof arg !== 'string')
+            return false
     for (let item of arg.split('|')) {
       const isValid = validator.isAlphanumeric(item)
       if (!isValid)
